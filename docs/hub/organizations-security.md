@@ -48,7 +48,7 @@ See [Tokens Management](./enterprise-tokens-management)
 
 You can change a member's **organization role** (Read / Contributor / Write / Admin) and, optionally, their roles in **resource groups** using the Hub API. The API updates **one member per request**. To change roles for multiple members, call the API in a loop (examples below).
 
-**OpenAPI reference:** [PUT /api/organizations/{name}/members/{username}/role](https://huggingface.co/spaces/huggingface/openapi#tag/orgs/PUT/api/organizations/{name}/members/{username}/role)
+**OpenAPI reference:** [PUT /api/organizations/\{name\}/members/\{username\}/role](https://huggingface.co/spaces/huggingface/openapi#tag/orgs/PUT/api/organizations/%7Bname%7D/members/%7Busername%7D/role)
 
 ### Prerequisites
 
