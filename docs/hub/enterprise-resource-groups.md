@@ -1,7 +1,7 @@
 # Resource groups
 
 > [!WARNING]
-> This feature is part of the <a href="https://huggingface.co/enterprise">Team & Enterprise</a> plans.
+> This feature is part of the <a href="https://huggingface.co/enterprise">Team, Enterprise, & Academia Hub</a> plans.
 
 Resource Groups allow organizations to enforce fine-grained access control to their repositories.
 
