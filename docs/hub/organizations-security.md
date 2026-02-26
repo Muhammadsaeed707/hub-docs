@@ -6,7 +6,7 @@
 > [!TIP]
 > Advanced and more fine-grained access control can be achieved with [Resource Groups](./security-resource-groups).
 >
-> The Resource Group feature is part of the <a href="https://huggingface.co/enterprise">Team, Enterprise, & Academia Hub</a> plans.
+> The Resource Group feature is part of the <a href="https://huggingface.co/enterprise">Team & Enterprise</a> plans.
 
 Members of organizations can have four different roles: `read`, `contributor`, `write`, or `admin`:
 
@@ -18,7 +18,7 @@ Members of organizations can have four different roles: `read`, `contributor`, `
 
 - `admin`: in addition to write rights on repos, admin members can update the Organization's profile, refresh the Organization's API token, and manage Organization members.
 
-As an organization `admin`, go to the **Members** section of the org settings to manage roles for users. You can also change a member's organization role (and optionally their resource group roles) programmatically via the API — see [Change member role via API](#change-member-role-via-api) at the bottom of this page.
+As an organization `admin`, go to the **Members** section of the org settings to manage roles for users.
 
 <div class="flex justify-center">
 <img class="block dark:hidden" src="https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/hub/org-members-page.png"/>
@@ -52,7 +52,7 @@ You can change a member's **organization role** (Read / Contributor / Write / Ad
 
 ### Prerequisites
 
-- Your organization must have a **subscription plan** (e.g. Team, Enterprise, or Academia Hub). The endpoint returns 402 otherwise.
+- Your organization must have a **subscription plan** (e.g. Team or Enterprise). The endpoint returns 402 otherwise.
 - You must be authenticated as an organization member with **Write** (or Admin) permission on the organization.
 - The target user must already be a **member** of the organization.
 

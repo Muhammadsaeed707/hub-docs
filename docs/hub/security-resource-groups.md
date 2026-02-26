@@ -1,7 +1,7 @@
 # Advanced Access Control in Organizations with Resource Groups
 
 > [!WARNING]
-> This feature is part of the <a href="https://huggingface.co/enterprise">Team, Enterprise, & Academia Hub</a> plans.
+> This feature is part of the <a href="https://huggingface.co/enterprise">Team & Enterprise</a> plans.
 
 In your Hugging Face organization, you can use Resource Groups to control which members have access to specific repositories.
 
