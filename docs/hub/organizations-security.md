@@ -44,7 +44,7 @@ You may be able to view the email addresses of members of your organization. The
 
 See [Tokens Management](./enterprise-tokens-management)
 
-## Change member role via API {#change-member-role-via-api}
+## Change member role via API
 
 You can change a member's **organization role** (Read / Contributor / Write / Admin) and, optionally, their roles in **resource groups** using the Hub API. The API updates **one member per request**. To change roles for multiple members, call the API in a loop (examples below).
 

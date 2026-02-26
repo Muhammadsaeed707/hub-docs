@@ -49,9 +49,9 @@ Remember that a repository can be part of only one Resource Group. You'll be war
     <img class="hidden dark:block" src="https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/hub/org-resource-groups-manage-move-repo-dark.png"/>
 </div>
 
-## Resource Groups API {#resource-groups-api}
+## Resource Groups API
 
-You can list resource groups and add users to them programmatically using the Hub API. To **change** an existing member's organization role and/or their roles in resource groups (one member per request), use the [Change member role via API](./organizations-security#change-member-role-via-api) endpoint described in [Access control in organizations](./organizations-security).
+The following endpoints let you **list** resource groups and **add** users to them. To **change** an existing member's organization-level role along with their resource group assignments, use the [Change member role via API](./organizations-security#change-member-role-via-api) endpoint in [Access control in organizations](./organizations-security).
 
 **OpenAPI reference:** [Resource groups](https://huggingface.co/spaces/huggingface/openapi#tag/resource-groups)
 
